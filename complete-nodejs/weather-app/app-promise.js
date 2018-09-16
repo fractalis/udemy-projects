@@ -30,7 +30,6 @@ axios.get(geocodeUrl).then( (response) => {
   var temperature = response.data.currently.temperature;
   var apparentTemperature = response.data.currently.apparentTemperature;
   console.log(`It is currently ${temperature}. It feels like ${apparentTemperature}`);
-  
 }).catch( (e) => {
   if (e.code === 'ECONNREFUSED') {
     console.log('Geocode API: Connection refused');
