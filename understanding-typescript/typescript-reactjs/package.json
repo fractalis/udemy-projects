@@ -1,28 +1,26 @@
 {
-  "name": "typescript-complete-course",
+  "name": "typescript-reactjs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -d --watch",
-    "build:prod": "webpack -p"
+    "build": "webpack",
+    "start": "lite-server"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
   "devDependencies": {
-    "@types/jquery": "^3.3.9",
-    "gulp": "^3.9.1",
-    "gulp-typescript": "^5.0.0-alpha.3",
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
     "lite-server": "^2.4.0",
     "ts-loader": "^5.2.0",
     "typescript": "^3.0.3",
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.1"
-  },
-  "dependencies": {
-    "jquery": "^3.3.1",
-    "systemjs": "^0.21.4"
   }
 }

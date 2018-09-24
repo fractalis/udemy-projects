@@ -1,7 +1,3 @@
-namespace MyMath {
-    const PI = 3.14;
+import $ = require('jquery');
 
-    export function calculateRectangle(width: number, length: number) {
-        return width * length;
-    }
-}
+$("#app").css({"background-color": "green"});
